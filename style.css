@@ -1,3 +1,87 @@
 *{
 	box-sizing: border-box;
 }
+
+body{
+	background: #FFD733;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h1 {
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	font-size: xx-large;
+	padding: 1rem;
+}
+
+.all {
+	background: #B7B6B1;
+	margin: 2rem auto;
+	width: 90%;
+	}
+
+
+.HKMH{
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+}
+
+.animal{
+	margin: 0 10px;
+	position: relative;
+}
+
+img{
+	width: 100%;
+}
+
+p{
+	background-color: white;
+	padding: 5px;
+	position: absolute;
+}
+
+span {
+	width: 50px;
+	height: 50px;
+	background: #FFF;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.hund span {
+	bottom: 0;
+	left: 0px;
+	}
+
+.katze span {
+		bottom: 0;
+		right: 0px;
+		}
+
+.hund {
+	bottom: 0;
+	left: 0px;
+	z-index: 2;
+}
+
+.katze {
+	bottom: 0;
+	right: 0px;
+	z-index: 2;
+}
+
+.maus {
+	top: 0;
+	right: 0px;
+}
+
+.huhn {
+	top: 0;
+	left: 0px;
+}
